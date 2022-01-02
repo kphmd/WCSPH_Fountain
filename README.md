@@ -55,8 +55,8 @@
 
 ### WCSPHSolver类
 1. 计算密度 [`compute_densities`](https://github.com/kphmd/WCSPH_Fountain/blob/master/wcsph.py#L16)
-2. 计算压力 [`compute_densities`](https://github.com/kphmd/WCSPH_Fountain/blob/master/wcsph.py#L27)
-3. 计算非压力 [`compute_densities`](https://github.com/kphmd/WCSPH_Fountain/blob/master/wcsph.py#L43)
+2. 计算压力 [`compute_pressure_forces`](https://github.com/kphmd/WCSPH_Fountain/blob/master/wcsph.py#L27)
+3. 计算非压力 [`compute_non_pressure_forces`](https://github.com/kphmd/WCSPH_Fountain/blob/master/wcsph.py#L43)
    - 粒子之间的粘性力
    - 粒子受到的重力
    - 喷泉向上的动力(line59)
